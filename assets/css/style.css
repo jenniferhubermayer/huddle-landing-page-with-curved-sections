@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,700;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ===== COLORS ===== */
+
+:root{
+    --pink: hsl(322, 100%, 66%);
+    --lightpink: hsl(321, 100%, 78%);
+    --lightred: hsl(0, 100%, 63%);
+    --verydarkcyan: hsl(192, 100%, 9%);
+    --verypaleblue: hsl(207, 100%, 98%);
+}
+
+/* ===== GENERAL STYLES ===== */ 
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.25rem;
+    padding-bottom: 2rem;
+    width: 80%;
+}
+
+p{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+button{
+    border-radius: 20px;
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+}
+
+/* ===== HEADER ===== */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 15vh 20px;
+}
+
+header img{
+    max-width: 30vw;
+}
+
+header button{
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    background-color: white;
+    border: var(--pink) 1px solid;
+    color: var(--pink);
+    text-transform: capitalize;
+}
+
+/* ===== SECTION - WELCOME ===== */
+
+.welcome{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 15vh 20px;
+}
+
+.welcome img{
+    width: 100%;
+    padding: 100px 0 100px 0;
+}
+
+.welcome p{
+    width: 90%;
+    padding-bottom: 60px;
+}
+
+/* ===== SECTION - REASONS WHY ===== */
+
+.reasons-why article img{
+    width: 80vw;
+}
+
+.reasons-why article:nth-of-type(odd){
+    background-color: var(--verypaleblue);
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    color: white;
+    background-color: var(--verydarkcyan);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* ----- SMALL DEVICES – MIN. WIDTH 769 PX ----- */
+
+@media (min-width: 768px){
+
+}
