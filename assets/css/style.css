@@ -109,49 +109,6 @@ input[type="submit"]{
 
 /* ===== ARTICLE BRIDGES ===== */
 
-/* .reasons-why .bridge-top-1,
-.reasons-why .bridge-top-2,
-.bridge-top-footer{
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    width: 100%;
-    padding-top: 60px;
-}
-
-.reasons-why .bridge-bottom-1,
-.reasons-why .bridge-bottom-2{
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    width: 100%;
-}
-
-.reasons-why .bridge-top-1{
-    background-image: url(../img/bg-section-top-mobile-1.svg);
-    height: 230px;
-}
-
-.reasons-why .bridge-bottom-1{
-    background-image: url(../img/bg-section-bottom-mobile-1.svg);
-    height: 150px;
-}
-
-.reasons-why .bridge-top-2{
-    background-image: url(../img/bg-section-top-mobile-2.svg);
-    height: 220px;
-}
-
-.reasons-why .bridge-bottom-2{
-    background-image: url(../img/bg-section-bottom-mobile-2.svg);
-    height: 220px;
-}
-
-.bridge-top-footer{
-    background-image: url(../img/bg-footer-top-mobile.svg);
-    height: 150px;
-} */
-
 .bridge{
     position: relative;
     min-height: 158px;
@@ -359,44 +316,6 @@ footer p{
     .facts{
         flex-wrap: unset;
         gap: 100px;
-    }
-    .reasons-why article{
-        display: flex;
-        align-items: center;
-    }
-    .reasons-why article:nth-of-type(odd) img{
-        order: 2;
-        padding: unset;
-        width: 40%;
-    }
-    .reasons-why article:nth-of-type(odd) div.wrapper{
-        order: 1;
-        text-align: left;
-        width: 60%;
-    }
-    .reasons-why .bridge-top-1{
-        background-image: url(../img/bg-section-top-desktop-1.svg);
-        height: 230px;
-    }
-    
-    .reasons-why .bridge-bottom-1{
-        background-image: url(../img/bg-section-bottom-desktop-1.svg);
-        height: 150px;
-    }
-    
-    .reasons-why .bridge-top-2 img{
-        background-image: url(../img/bg-section-top-desktop-2.svg);
-        height: 220px;
-    }
-    
-    .reasons-why .bridge-bottom-2 img{
-        background-image: url(../img/bg-section-bottom-desktop-2.svg);
-        height: 220px;
-    }
-    
-    .bridge-top-footer{
-        background-image: url(../img/bg-footer-top-desktop.svg);
-        height: 170px;
     }
     img.big-top{
         display: block;
