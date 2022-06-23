@@ -257,40 +257,49 @@ footer p{
     padding-bottom: 3rem;
 }
 
-.contact article{
+.about-huddle img{
+    padding: 6rem 0 1rem 0;
+}
+
+.about-huddle .contact {
     display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.about-huddle .contact div{
+    display: flex;
+    width: 100%;
     align-items: baseline;
 }
 
-.contact article img{
-    padding-right: 20px;
+.about-huddle .contact img{
+    padding: 0 20px 0 0;
 }
 
-.contact article p{
+.about-huddle .contact p{
     padding-bottom: 1rem;
+    display: inline-block;
 }
 
-.contact a{
+.about-huddle .contact a{
     color: white;
     text-decoration: none;
 }
 
-.contact a:hover{
+.about-huddle .contact a:hover{
     text-decoration: underline;
 }
 
-.social-media{
+.about-huddle .social-media{
     display: flex;
     gap: 20px;
     padding: 60px 0 60px 0;
 }
 
-.social-media img{
+.about-huddle .social-media img{
     width: 25px;
-}
-
-.about-huddle img{
-    padding: 6rem 0 1rem 0;
+    padding: unset;
 }
 
 /* ===== FRONTEND MENTOR FOOTER ===== */
