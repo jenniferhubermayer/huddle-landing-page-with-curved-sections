@@ -114,18 +114,18 @@ input[type="submit"]{
     min-height: 158px;
 }
 
-img.big-top{
+img.mobile-top{
     width: 100%;
     position: absolute;
     bottom: 0;
 }
 
-img.mobile-top,
-img.mobile-bottom{
+img.big-top,
+img.big-bottom{
     display: none;
 }
 
-img.big-bottom{
+img.mobile-bottom{
     width: 100%;
     position: absolute;
     top: 0;
@@ -318,13 +318,9 @@ footer p{
 /* ----- SMALL DEVICES – MIN. WIDTH 769 PX ----- */
 
 @media (min-width: 768px){
-    body{
-        background-color: red;
-    }
-
     .facts{
         flex-wrap: unset;
-        gap: 100px;
+        gap: 300px;
     }
     img.big-top{
         display: block;
@@ -341,5 +337,46 @@ footer p{
         width: 100%;
         position: absolute;
         top: 0;
+    }
+    .reasons-why article:nth-of-type(odd){
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
+    .reasons-why article h3,
+    .reasons-why article p{
+        text-align: left;
+        }
+    .reasons-why article:nth-of-type(even){
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        }
+    footer section:nth-of-type(1){
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 60px;
+    }
+    .about-huddle img{
+        padding-top: 0;
+    }
+    .about-huddle,
+    .newsletter-subscribtion{
+        width: 50%;
+        padding: 0 20px 0 20px;
+    }
+    .about-huddle p,
+    .newsletter-subscribtion p{
+        max-width: 350px;
+    }
+    form{
+        justify-content: unset;
+    }
+    input[type="email"]{
+        width: unset;
+        margin-right: 20px;
+    }
+    .ready-to-build{
+        margin: 60px 0 60px 0;
     }
 }
