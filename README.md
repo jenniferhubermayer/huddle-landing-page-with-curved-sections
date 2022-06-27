@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/Screenshot_Frontend-Mentor_Huddle-landing-page-with-curved-sections.png)
 
 ### Links
 
